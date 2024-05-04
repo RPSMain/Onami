@@ -142,7 +142,7 @@ class ManagementFeature(Feature):
         }
 
         return await ctx.send(
-            f"Link to invite this bot:\n<https://nextcord.com/oauth2/authorize?{urlencode(query, safe='+')}>"
+            f"Link to invite this bot:\n<https://discord.com/oauth2/authorize?{urlencode(query, safe='+')}>"
         )
 
     @Feature.Command(parent="oni", name="rtt", aliases=["ping"])
